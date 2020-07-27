@@ -31,3 +31,4 @@ C:\Users\alpag\source\repos\WirelessandMobileSystems\WirelessandMobileSystems\ob
 C:\Users\alpag\source\repos\WirelessandMobileSystems\WirelessandMobileSystems\obj\Debug\WirelessandMobileSystems.csproj.CoreCompileInputs.cache
 C:\Users\alpag\source\repos\WirelessandMobileSystems\WirelessandMobileSystems\obj\Debug\WirelessandMobileSystems.exe
 C:\Users\alpag\source\repos\WirelessandMobileSystems\WirelessandMobileSystems\obj\Debug\WirelessandMobileSystems.pdb
+C:\Users\alpag\source\repos\WirelessandMobileSystems\WirelessandMobileSystems\obj\Debug\WirelessandMobileSystems.csprojAssemblyReference.cache
