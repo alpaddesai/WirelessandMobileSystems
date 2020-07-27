@@ -64,5 +64,4 @@ Images are custom.
 
 ## Network Simulator
 ![image](NetworkSimulator.png)
-![image](RecentAdvances.png)
 
