@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E8A49860-6D24-4E31-801A-56B6369E7715}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WirelessandMobileSystems</RootNamespace>
+    <AssemblyName>WirelessandMobileSystems</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BasicConcepts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasicConcepts.Designer.cs">
+      <DependentUpon>BasicConcepts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CellularConcept.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CellularConcept.Designer.cs">
+      <DependentUpon>CellularConcept.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChannelAllocation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChannelAllocation.Designer.cs">
+      <DependentUpon>ChannelAllocation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChannelCodingErrorContd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChannelCodingErrorContd.Designer.cs">
+      <DependentUpon>ChannelCodingErrorContd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChannelCodingErrorControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChannelCodingErrorControl.Designer.cs">
+      <DependentUpon>ChannelCodingErrorControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class1.cs" />
+    <Compile Include="EncryptionDecryptionTechnique.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EncryptionDecryptionTechnique.Designer.cs">
+      <DependentUpon>EncryptionDecryptionTechnique.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Introduction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Introduction.Designer.cs">
+      <DependentUpon>Introduction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mobile Communication Systems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mobile Communication Systems.Designer.cs">
+      <DependentUpon>Mobile Communication Systems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModulationTechniques.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModulationTechniques.Designer.cs">
+      <DependentUpon>ModulationTechniques.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MultipleDivisionTech.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MultipleDivisionTech.Designer.cs">
+      <DependentUpon>MultipleDivisionTech.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MultipleRadioAccess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MultipleRadioAccess.Designer.cs">
+      <DependentUpon>MultipleRadioAccess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Network Simulator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Network Simulator.Designer.cs">
+      <DependentUpon>Network Simulator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NetworkProtocols.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NetworkProtocols.Designer.cs">
+      <DependentUpon>NetworkProtocols.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NetworkProtocolsContd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NetworkProtocolsContd.Designer.cs">
+      <DependentUpon>NetworkProtocolsContd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Probability.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Probability.Designer.cs">
+      <DependentUpon>Probability.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RecentAdvances.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecentAdvances.Designer.cs">
+      <DependentUpon>RecentAdvances.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SensorNetworks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SensorNetworks.Designer.cs">
+      <DependentUpon>SensorNetworks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WirelessLANPANBANMAN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WirelessLANPANBANMAN.Designer.cs">
+      <DependentUpon>WirelessLANPANBANMAN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WPANWLANContd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WPANWLANContd.Designer.cs">
+      <DependentUpon>WPANWLANContd.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BasicConcepts.resx">
+      <DependentUpon>BasicConcepts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CellularConcept.resx">
+      <DependentUpon>CellularConcept.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChannelAllocation.resx">
+      <DependentUpon>ChannelAllocation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChannelCodingErrorContd.resx">
+      <DependentUpon>ChannelCodingErrorContd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChannelCodingErrorControl.resx">
+      <DependentUpon>ChannelCodingErrorControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EncryptionDecryptionTechnique.resx">
+      <DependentUpon>EncryptionDecryptionTechnique.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Introduction.resx">
+      <DependentUpon>Introduction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mobile Communication Systems.resx">
+      <DependentUpon>Mobile Communication Systems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModulationTechniques.resx">
+      <DependentUpon>ModulationTechniques.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MultipleDivisionTech.resx">
+      <DependentUpon>MultipleDivisionTech.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MultipleRadioAccess.resx">
+      <DependentUpon>MultipleRadioAccess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Network Simulator.resx">
+      <DependentUpon>Network Simulator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NetworkProtocols.resx">
+      <DependentUpon>NetworkProtocols.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NetworkProtocolsContd.resx">
+      <DependentUpon>NetworkProtocolsContd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Probability.resx">
+      <DependentUpon>Probability.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="RecentAdvances.resx">
+      <DependentUpon>RecentAdvances.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SensorNetworks.resx">
+      <DependentUpon>SensorNetworks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WirelessLANPANBANMAN.resx">
+      <DependentUpon>WirelessLANPANBANMAN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WPANWLANContd.resx">
+      <DependentUpon>WPANWLANContd.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="AxAcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
