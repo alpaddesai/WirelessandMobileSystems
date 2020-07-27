@@ -9,4 +9,4 @@ Please download the executable in https://github.com/alpaddesai/WirelessandMobil
 Images are custom.
 
 ## Wirelss and Mobile Systems
-![image](MobileSystems.jpg)
+![image](MobileSystems.png)
